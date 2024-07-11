@@ -24,3 +24,7 @@
     display: none !important;
 }
 
+ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
+  display: none;
+}
+
