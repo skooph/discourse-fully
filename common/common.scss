@@ -34,6 +34,6 @@ ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
 }
 
 //hide search button 
-a#search-button.icon {
+.search-button {
     display: none;
 }
