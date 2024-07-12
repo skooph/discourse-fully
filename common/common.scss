@@ -32,3 +32,8 @@ ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
 .highlighted {
     animation: none !important;
 }
+
+//hide search button 
+a#search-button.icon {
+    display: none;
+}
