@@ -28,3 +28,7 @@ ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
   display: none;
 }
 
+//removed the highlight fade in animation. 
+.highlighted {
+    animation: none !important;
+}
