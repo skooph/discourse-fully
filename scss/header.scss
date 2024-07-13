@@ -60,15 +60,6 @@
     grid-area: extra-info;
     width: calc(100vw - 100px);
   }
-
-  // some protection for text-only site titles
-  .title {
-    grid-area: logo;
-    @if ($center_logo == "true") {
-      margin: 0 auto;
-    }
-    max-width: unset;
-  }
   
 }
 
