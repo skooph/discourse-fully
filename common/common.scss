@@ -24,17 +24,18 @@
     display: none !important;
 }
 
-ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
-  display: none;
+//ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
+//  display: none;
+//}
+
+//.select-kit-header.single-select-header.combo-box-header.tag-drop-header {
+//  display: none;
+//}
+
+.navigation-controls .fk-d-button-tooltip {
+    display: none !important;
 }
 
-.select-kit-header.single-select-header.combo-box-header.tag-drop-header {
-  display: none;
-}
-
-.active.latest.nav-item_latest {
-  display: none;
-}
 
 //removed the highlight fade in animation. 
 .highlighted {
@@ -42,6 +43,6 @@ ol.category-breadcrumb li:has(details.category-drop [data-value=""]) {
 }
 
 //hide search button 
-//.d-header-icons .icon#search-button {
-//    display: none;
-//}
+.d-header-icons .icon#search-button {
+    display: none;
+}
