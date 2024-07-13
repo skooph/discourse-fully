@@ -22,45 +22,6 @@
 .mobile-view .d-header #site-text-logo {
   font-size: var(--font-0);
   color: var(--primary);
-
-  display: grid;
-  grid:
-"left-menu logo extra-info header-buttons chat-header-icon search right-menu" auto;
-  grid-column-gap: 0.2em;
-  padding: 0 8px;
-  box-sizing: border-box;
-
-  & > .wrap {
-    &,
-    & .contents {
-      display: contents;
-    }
-  }
-
-  .panel {
-    &,
-    & > .d-header-icons {
-      display: contents;
-    }
-  }
-
-  .header-buttons {
-    grid-area: header-buttons;
-  }
-  .search-dropdown {
-    grid-area: search;
-  }
-  .hamburger-dropdown {
-    grid-area: left-menu;
-  }
-  .current-user {
-    grid-area: right-menu;
-  }
-  .extra-info-wrapper {
-    grid-area: extra-info;
-    width: calc(100vw - 100px);
-  }
-  
 }
 
 .full-page-chat .chat-full-page-header {
