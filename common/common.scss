@@ -43,6 +43,16 @@
 }
 
 //hide search button 
-.d-header-icons .icon#search-button {
-    display: none;
+//.d-header-icons .icon#search-button {
+//    display: none;
+//}
+
+@font-face {
+  font-family: Figtree;
+  src: url($Figtree-Regular) format('woff2')
+}
+
+body {
+    font-family: Figtree-Regular;
+    font-size: 15px;
 }
