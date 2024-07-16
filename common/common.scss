@@ -93,10 +93,10 @@ ol.category-breadcrumb {
 }
 
 
-//----------------------
-.has-sidebar-page .d-header>.wrap .contents {
-    gap: 0em !important;
-}
+//--------fix spacing when used with header new topic plugin --------------
+//.has-sidebar-page .d-header>.wrap .contents {
+//    gap: 0em !important;
+//}
 
 .topic-body .post-info.edits {
     display: none;
