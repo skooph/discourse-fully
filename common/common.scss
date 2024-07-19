@@ -110,3 +110,52 @@ ol.category-breadcrumb {
 .edit-topic {
     display: none !important;
 }
+
+
+//------------------
+.category-title-header {
+  &.category-banner-fashion {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/fashiondooodles.svg) !important;
+  }
+  &.category-banner-electronics {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/electronicsdoodles.svg) !important;
+  }
+  &.category-banner-general {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/generaldooodles.svg) !important;
+  }
+  &.category-banner-cosmetics {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/cosmeticdooodles.svg) !important;
+  }
+  &.category-banner-education {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/educationdooodles.svg) !important;
+  }
+  &.category-banner-entertainment {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/entertainmentdooodles.svg) !important;
+  }
+  &.category-banner-feedback {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/feedbackdooodles.svg) !important;
+  }
+  &.category-banner-finance {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/financedooodles.svg) !important;
+  }
+  &.category-banner-gaming {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/gamingdooodles.svg) !important;
+  }
+  &.category-banner-health {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/healthdooodles.svg) !important;
+  }
+  &.category-banner-staff {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/staffdooodles.svg) !important;
+  }
+  &.category-banner-travel {
+        background: url(https://skooph.blr1.cdn.digitaloceanspaces.com/banner-doodles/traveldooodles.svg) !important;
+  }
+}
+
+
+.category-title-contents .category-title {
+    color: var(--dimmed-text);
+    text-shadow: var(--secondary) 0px 0px 50px;
+}
+
+
