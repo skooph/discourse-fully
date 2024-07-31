@@ -169,34 +169,3 @@ ol.category-breadcrumb {
 .topic-list-bottom .footer-message {
     display: none !important;
 }
-
-
-//----------overflow link text
-//------------
-.topic-thumbnails-masonry {
-  .main-link {
-    .link-top-line {
-      overflow: hidden;
-      display: -webkit-box !important;
-      -webkit-line-clamp: 2 !important; /* number of lines to show */
-      line-clamp: 2 !important; 
-      -webkit-box-orient: vertical !important;
-    }
-  }
-}
-
-.topic-thumbnails-masonry {
-  .main-link {
-    .link-bottom-line {
-      overflow: hidden;
-      display: -webkit-box !important;
-      -webkit-line-clamp: 1 !important; /* number of lines to show */
-      line-clamp: 1 !important; 
-      -webkit-box-orient: vertical !important;
-    }
-  }
-}
-
-//.topic-thumbnails-masonry {
-//    height: 120px !important;
-//}
