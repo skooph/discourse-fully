@@ -179,3 +179,8 @@ ol.category-breadcrumb {
     border-bottom: 0px !important;
     margin-bottom: 0px !important;
 }
+
+.hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-link.active {
+    font-weight: normal;
+    background: var(--tertiary-900) !important;
+}
