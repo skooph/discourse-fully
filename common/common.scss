@@ -187,6 +187,7 @@ ol.category-breadcrumb {
 
 .md-table {
     width: 100%;
+    margin: 1em 0px 2em 0px; //this is the margin below table because of the new callout design, it was a bit too close, this is old value margin: 1em 0;
 }
 
 .md-table table {
