@@ -193,6 +193,7 @@ ol.category-breadcrumb {
     width: 100%;
 }
 
-.fullscreen-table-wrapper {
-  transition: none;
+.discourse-no-touch .fullscreen-table-wrapper:hover {
+    border-radius: none !important;
+    box-shadow: none !important;
 }
