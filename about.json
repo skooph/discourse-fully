@@ -1,11 +1,29 @@
 {
-  "about_url": "https://meta.discourse.org/t/fully-a-full-width-discourse-theme/262833",
+  "name": "Mod Google tag",
+  "component": false,
   "license_url": null,
-  "components": [
-    "https://github.com/discourse/discourse-full-width-component.git",
-    "https://github.com/discourse/discourse-color-scheme-toggle.git"
-  ],
-  "name": "Fully Theme",
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
   "color_schemes": {
-  }
+    "Lights": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "176ff8",
+      "quaternary": "176ff8",
+      "header_background": "ffffff",
+      "header_primary": "1b2432",
+      "highlight": "ffff4d",
+      "selected": "d1f0ff",
+      "hover": "f2f2f2",
+      "danger": "e8384f",
+      "success": "37c5ab",
+      "love": "0e7afe"
+    }
+  },
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

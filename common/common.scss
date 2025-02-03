@@ -76,7 +76,7 @@ ol.category-breadcrumb {
 .list-controls {
     ol.category-breadcrumb, ul#navigation-bar {
         display: none;
-   }
+  }
     .navigation-container {
         flex-direction: row-reverse;
     }
@@ -234,4 +234,31 @@ blockquote:before {
 .cooked>blockquote,
 .cooked>blockquote:first-child {
   margin-top: 20px;
+}
+
+
+//disable lightbox
+.cooked {
+  .lightbox-wrapper {
+    a.lightbox {
+      pointer-events: none; // Disable all click events on image
+      &:hover {
+        box-shadow: none;
+      }
+      .meta {
+        display: none;
+      }
+    }
+  }
+}
+
+//Diable adsense "Advertisement" label above suggested topics post
+.google-adsense.adsense-responsive .google-adsense-label {
+    display: none !important;
+}
+
+//Timeline handle in posts colour change to tertiary
+
+.timeline-container .topic-timeline .timeline-handle {
+    background-color: var(--tertiary);
 }
