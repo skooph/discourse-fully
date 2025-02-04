@@ -1,8 +1,9 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var isAndroid = /androidapp/.test(navigator.userAgent);
+    var isiOS = /iosapp/.test(navigator.userAgent);
 
-    if (isAndroid) {
+    if (isAndroid || isiOS) {
         var cFooter = document.getElementsByClassName('ember-view below-footer-outlet custom-footer')[0]; //get the first element
         var cookieC = document.getElementsByClassName('cc-message')[0];
         if (cFooter) {
