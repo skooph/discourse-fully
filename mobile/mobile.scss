@@ -22,3 +22,7 @@ margin-bottom: 2em !important;
 .custom-search-banner-wrap {
 padding: 2.5em 0 1em !important;
 }
+
+//Hide user avatar and remove left margin.
+.topic-list td div.pull-left a { display: none; }
+.topic-list td div.right { margin-left: 0px; }
