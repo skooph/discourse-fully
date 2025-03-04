@@ -24,5 +24,19 @@ padding: 2.5em 0 1em !important;
 }
 
 //Hide user avatar and remove left margin.
-.topic-list td div.pull-left a { display: none; }
-.topic-list td div.right { margin-left: 0px; }
+.mobile-view .topic-list-data .pull-left {
+  display: none; // hides the avatars
+}
+
+.mobile-view .topic-list .right {
+  margin-left: 0; // removes the space for the avatars
+}
+
+.topic-list .main-link {
+    font-size: var(--font-0) !important;
+    // font-size: 17px !important;
+}
+
+.topic-list .topic-list-data {
+    padding: 8px 0;
+}
